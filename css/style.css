@@ -1,0 +1,131 @@
+*{	
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/*Header section*/
+h3
+{
+	margin-top: 550px;
+	margin-left: 300px;
+	padding: 65px;
+	font-size: 150px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: lighter;
+	color:black;
+	text-transform: capitalize;
+    text-shadow:2px 2px 2px #fff;
+
+}
+.navbar
+{
+	
+	box-shadow: 3px 3px 5px 0.5px #000000;
+
+}
+.navbar-brand
+{
+	margin-left:80px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 200px;
+}
+
+/* Outer box */
+.outer
+{
+	background-color: #000000;
+	width:285px;
+	height: 400px;
+	margin-left: 200px;
+	margin-top: 25px;
+	border-radius: 20px;
+
+	
+}
+
+/*Input section*/
+
+.box input[type=text]
+{
+	width: 245px;
+	height: 52px;
+	margin-top: 18px;
+	margin-left: 18px;
+	border-radius: 12px;
+	font-size: 30px;
+	font-family: 'Orbitron', sans-serif;
+	box-shadow: 3px 3px 3px 0.5px #5A5A5A;
+	background-color: #000000;
+	color:#fff;
+}
+
+.box input:focus
+{
+	background-color: #161616;
+}
+
+/*Button section */
+.numbers 
+{
+	display: grid;
+	grid-template-columns: repeat(4, 58px);
+	grid-template-rows: 50px;
+	justify-content: center;
+	gap: 5px;
+	margin: 12px;
+}
+
+.numbers button[class=clear]
+{
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+div button
+{
+	font-weight: bolder;
+	font-size: 18px;
+	font-family: 'Orbitron', sans-serif;
+	border-radius: 20px;
+	cursor: pointer;
+	box-shadow: 3px 3px 3px 0.3px #5A5A5A;
+	background-color: #000000;
+	color:#fff;
+}
+
+button:hover
+{
+	background-color: #1b1c1c;
+}
+.bottom-container
+{
+	
+	text-align: center;
+	color: #000;
+	position: absolute;
+	top: 645px;
+	left: 0px;
+	right: 0px;
+	padding:5px;
+}
+@media (max-width:634px) and (max-height:879vh) {
+	h3{
+		margin-left: 70px;
+		font-size: 5px;
+		padding:65px;
+	}
+	.outer{
+
+		margin-top: 1px;
+		margin-left: 100px;
+
+	}
+	body{
+		background-size: 200px 100px;
+	}
+	.bottom-container{
+		padding: 10px 10px;
+	}
+}
